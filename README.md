@@ -18,7 +18,7 @@ a sophist
 - github automations (gke, and local build runs)
 
  
-installation, setup instructions:
+# installation, setup instructions:
 
 run:
 ``` console
