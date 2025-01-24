@@ -15,4 +15,19 @@ TODO:
 - cross connect gcp secrets/api-keys with gitlab
 - terraform run GKS
 - helm deploy
+- github automations (gke, and local build runs)
+
+ 
+installation, setup instructions:
+
+run:
+  python3 -m venv venv
+  source venv/bin/activate
+  pip3 install poetry
+  poetry install
+
+check PG_CONNECT of a script ./hypercorn_run.sh so it fits your postgresql settings
+
+run:
+./hypercorn_run.sh
 

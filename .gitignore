@@ -6,3 +6,4 @@ __pycache__/
 ./tests/__pycache__/
 ./src/api/__pycache__/
 __init__.py,cover
+venv
